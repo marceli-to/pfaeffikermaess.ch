@@ -23,7 +23,9 @@
         <p>Nach einer langen Zeit freuen wir uns ganz besonders darauf, mit Ihnen ein gelungenes Wochenende zu verbringen. Seien Sie dabei und lassen Sie uns gemeinsam dieses Fest der Vielfalt und des Miteinanders feiern</p>
       </div>
       <div class="md:col-span-3 xl:col-span-4 mt-20 md:mt-0">
-        <x-icons.logo-lehrlingswettbewerb class="block w-full h-auto max-w-[240px] mx-auto md:max-w-none"  />
+        <a href="https://www.lwzo.ch" target="_blank" title="Lehrlingswettbewerb Züri-Oberland">
+          <x-icons.logo-lehrlingswettbewerb class="block w-full h-auto max-w-[240px] mx-auto md:max-w-none"  />
+        </a>
       </div>
     </div>
   </x-layout.inner>
