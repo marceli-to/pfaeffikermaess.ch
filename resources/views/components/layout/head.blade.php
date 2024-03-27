@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Felsengrund – Wohnen im schönen Zürcher Oberland</title>
+<title>@if(trim($__env->yieldContent('seo_title')))@yield('seo_title')@else{{config('seo.title')}}@endif</title>
 <meta name="description" content="@if(trim($__env->yieldContent('seo_description')))@yield('seo_description')@else{{config('seo.description')}}@endif">
-<meta property="og:title" content="@if(trim($__env->yieldContent('seo_title')))@yield('seo_title') / {{config('seo.title')}}@else{{config('seo.title')}}@endif">
+<meta property="og:title" content="@if(trim($__env->yieldContent('seo_title')))@yield('seo_title')@else{{config('seo.title')}}@endif">
 <meta property="og:description" content="@if(trim($__env->yieldContent('seo_description')))@yield('seo_description')@else{{config('seo.description')}}@endif">
 <meta property="og:url" content="{{url()->current()}}">
 <meta property="og:site_name" content="{{config('seo.title')}}">
@@ -20,4 +20,4 @@
 @vite('resources/css/app.css')
 @livewireStyles
 </head>
-<body class="antialiased font-regular text-white text-base lg:text-md leading-[1.25] flex min-h-full flex-col">
+<body class="antialiased font-regular text-white text-base lg:text-md leading-[1.35] flex min-h-full flex-col">

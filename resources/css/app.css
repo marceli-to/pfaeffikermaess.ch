@@ -42,6 +42,18 @@ main ul li {
   @apply list-item list-disc ml-20;
 }
 
+.privacy h1, 
+.privacy h2,
+.imprint h1,
+.imprint h2 {
+  @apply font-extrabold mb-10
+}
+
+.privacy p:not(:last-of-type),
+.imprint p:not(:last-of-type) {
+  @apply mb-20 lg:mb-30;
+}
+
 .marker {
   background-image: url('../icons/marker.svg');
   background-size: contain;

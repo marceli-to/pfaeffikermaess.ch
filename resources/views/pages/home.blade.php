@@ -1,5 +1,5 @@
 @extends('app')
-@section('seo_title', 'Pfäffikermäss - 8. bis 10. November 2024')
+@section('seo_title', 'Pfäffikermäss – 8. bis 10. November 2024 – Sporthalle Mettlen')
 @section('seo_description', 'Ein Dorffest, in Form einer traditionellen Gewerbeausstellung, steht an. Tauchen Sie ein in die Vielfalt unserer Gewerberegion und entdecken Sie spannende Aussteller, die mit ihren Produkten und Dienstleistungen begeistern. Von aufregenden Veranstaltungen bis hin zu fesselnden Shows ist für jeden etwas geboten, sodass dieser Anlass zu einem wahrhaft besonderen Erlebnis wird.')
 @section('content')
 <figure class="relative aspect-[16/8] md:aspect-[16/5]">
@@ -30,7 +30,80 @@
 </x-layout.section>
 <x-layout.section class="bg-white">
   <x-layout.inner>
-    
+    <div class="flex justify-center">
+      <a href="/media/downloads/Anmeldung_PfaeffikerMaess_2024.pdf" 
+        target="_blank"
+        class="bg-scarlet hover:bg-black transition-all rounded-full font-extrabold uppercase text-md lg:text-xl text-white text-center px-30 py-10 inline-block w-auto"
+        title="Anmeldeformular für Aussteller">
+        Anmeldeformular<br>für Aussteller
+      </a>
+    </div>
+    <div class="grid grid-cols-12 gap-20 lg:gap-25 mt-20 lg:mt-50">
+      <div class="col-span-full sm:col-span-6">
+        <figure>
+          <picture class="w-full">
+            <source media="(min-width: 1024px)" srcset="/media/img/pfaeffikermaess-2024-eingang-lg.jpg">
+            <source media="(min-width: 768px)" srcset="/media/img/pfaeffikermaess-2024-eingang-md.jpg">
+            <source srcset="/media/img/pfaeffikermaess-2024-eingang-sm.jpg">
+            <img 
+              src="/media/img/pfaeffikermaess-2024-eingang-sm.jpg" 
+              alt="Pfäffikermäss – Eingangsbereich" 
+              height="1600" 
+              width="1059"
+              loading="lazy"
+              class="block w-full h-auto">
+          </picture>
+        </figure>
+      </div>
+      <div class="col-span-full sm:col-span-6">
+        <figure>
+          <picture class="w-full">
+            <source media="(min-width: 1024px)" srcset="/media/img/pfaeffikermaess-2024-licht-an-lg.jpg">
+            <source media="(min-width: 768px)" srcset="/media/img/pfaeffikermaess-2024-licht-an-md.jpg">
+            <source srcset="/media/img/pfaeffikermaess-2024-licht-an-sm.jpg">
+            <img 
+              src="/media/img/pfaeffikermaess-2024-licht-an-sm.jpg" 
+              alt="Pfäffikermäss – Licht an" 
+              height="1600" 
+              width="1059"
+              loading="lazy"
+              class="block w-full h-auto">
+          </picture>
+        </figure>
+      </div>
+      <div class="col-span-full sm:col-span-6">
+        <figure>
+          <picture class="w-full">
+            <source media="(min-width: 1024px)" srcset="/media/img/pfaeffikermaess-2024-konzert-lg.jpg">
+            <source media="(min-width: 768px)" srcset="/media/img/pfaeffikermaess-2024-konzert-md.jpg">
+            <source srcset="/media/img/pfaeffikermaess-2024-konzert-sm.jpg">
+            <img 
+              src="/media/img/pfaeffikermaess-2024-konzert-sm.jpg" 
+              alt="Pfäffikermäss – Konzert" 
+              height="1600" 
+              width="1059"
+              loading="lazy"
+              class="block w-full h-auto">
+          </picture>
+        </figure>
+      </div>
+      <div class="col-span-full sm:col-span-6">
+        <figure>
+          <picture class="w-full">
+            <source media="(min-width: 1024px)" srcset="/media/img/pfaeffikermaess-2024-vogelperspektive-lg.jpg">
+            <source media="(min-width: 768px)" srcset="/media/img/pfaeffikermaess-2024-vogelperspektive-md.jpg">
+            <source srcset="/media/img/pfaeffikermaess-2024-vogelperspektive-sm.jpg">
+            <img 
+              src="/media/img/pfaeffikermaess-2024-vogelperspektive-sm.jpg" 
+              alt="Pfäffikermäss – Vogelperspektive" 
+              height="1600" 
+              width="1059"
+              loading="lazy"
+              class="block w-full h-auto">
+          </picture>
+        </figure>
+      </div>
+    </div>
   </x-layout.inner>
 </x-layout.section>
 @endsection

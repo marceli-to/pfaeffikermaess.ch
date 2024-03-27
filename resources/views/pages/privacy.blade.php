@@ -1,7 +1,20 @@
 @extends('app')
-@section('seo_title', 'Datenschutzerklärung')
+@section('seo_title', 'Datenschutzerklärung – Pfäffikermäss – 8. bis 10. November 2024 – Sporthalle Mettlen')
 @section('content')
-<x-layout.section>
+<figure class="relative aspect-[16/8] md:aspect-[16/5]">
+  <a href="{{ route('page.home')}}" title="Startseite">
+    <picture>
+      <img 
+        src="/media/img/pfaeffikermaess-2024-visual-see.jpg" 
+        alt="Pfäffikermäss - 8. bis 10. November 2024" 
+        height="1600" 
+        width="1050"
+        class="block absolute w-full h-full object-fill">
+    </picture>
+    <x-icons.logo class="block w-180 sm:w-240 md:w-[320px] xl:w-[400px] 2xl:w-[500px] h-auto absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" />
+  </a>
+</figure>
+<x-layout.section class="text-black">
   <x-layout.inner class="privacy">
     <h1>Datenschutzerklärung</h1>
     <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
@@ -67,21 +80,8 @@
     
     <h2>Recht auf Auskunft, Löschung, Sperrung</h2>
     <p>Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung sowie ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden oder eine E-Mail an <a href="mailto:mieten@apleona.com" target="_blank">mieten@apleona.com</a> senden.</p>
-  
-    <h2>Verwendung von Adobe Fonts</h2>
-    <p>Wir verwenden auf dieser Webseite die Schriftarten von Adobe Fonts, um ein ansprechendes Design und eine bessere Lesbarkeit zu gewährleisten. Adobe Fonts ist ein Dienst der Adobe Systems Software Ireland Limited, 4-6 Riverwalk, Citywest Business Campus, Dublin 24, Irland.</p>
-    <p>Beim Besuch dieser Webseite werden die Schriften von Adobe von Ihrem Browser geladen, um die Schrift korrekt darzustellen. Zu diesen Informationen können auch personenbezogene Daten gehören, insbesondere:</p>
-    <ul>
-      <li>IP-Adresse des Geräts, von dem aus auf die Webseite zugegriffen wird</li>
-      <li>Datum und Uhrzeit des Zugriffs</li>
-      <li>Browsertyp und -version</li>
-      <li>Betriebssystem des Geräts</li>
-      <li>Spracheinstellungen des Browsers</li>
-    </ul>
-    <p>Die Verarbeitung Ihrer personenbezogenen Daten im Zusammenhang mit Adobe Fonts erfolgt zum Zweck der Darstellung der Schriftarten auf dieser Webseite und zur Gewährleistung einer einheitlichen und ansprechenden visuellen Gestaltung. Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO, da wir ein berechtigtes Interesse an der visuellen Gestaltung und Benutzerfreundlichkeit unserer Webseite haben.</p>
-    <p>Weitere Informationen zur Datenverarbeitung durch Adobe Fonts finden Sie in der Datenschutzerklärung von Adobe Fonts <a href="https://www.adobe.com/de/privacy/policies/adobe-fonts.html" target="_blank">hier</a>. </p>
-    <p>Für weitere Informationen zur Verarbeitung Ihrer personenbezogenen Daten und zur Ausübung Ihrer Rechte im Zusammenhang mit der Nutzung dieser Webseite lesen Sie bitte die Datenschutzerklärung.</p>
-   
+ 
+
   </x-layout.inner>
 </x-layout.section>
 @endsection
