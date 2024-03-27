@@ -24,7 +24,7 @@
       </div>
       <div class="md:col-span-3 xl:col-span-4 mt-20 md:mt-0">
         <a href="https://www.lwzo.ch" target="_blank" title="Lehrlingswettbewerb Züri-Oberland">
-          <x-icons.logo-lehrlingswettbewerb class="block w-full h-auto max-w-[240px] mx-auto md:max-w-none"  />
+          <img src="/media/img/pfaeffikermaesse-lwzo.png" alt="Lehrlingswettbewerb Züri-Oberland" class="block w-full h-auto max-w-[240px] mx-auto md:max-w-none"  />
         </a>
       </div>
     </div>
