@@ -33,7 +33,7 @@
 <x-layout.section class="bg-white">
   <x-layout.inner>
     <div class="flex justify-center">
-      <a href="/media/downloads/Anmeldung_PfaeffikerMaess_2024.pdf" 
+      <a href="/media/downloads/Anmeldung_PfaeffikerMaess_2024-v2.pdf" 
         target="_blank"
         class="bg-scarlet hover:bg-black transition-all rounded-full font-extrabold uppercase text-md lg:text-xl text-white text-center px-30 py-10 inline-block w-auto"
         title="Anmeldeformular für Aussteller">
