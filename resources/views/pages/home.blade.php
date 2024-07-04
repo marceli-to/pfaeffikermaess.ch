@@ -1,5 +1,5 @@
 @extends('app')
-@section('seo_title', 'Pfäffikermäss – 8. bis 10. November 2024 – Sporthalle Mettlen')
+@section('seo_title', 'Pfäffikermäss - ABGESAGT!!!')
 @section('seo_description', 'Ein Dorffest, in Form einer traditionellen Gewerbeausstellung, steht an. Tauchen Sie ein in die Vielfalt unserer Gewerberegion und entdecken Sie spannende Aussteller, die mit ihren Produkten und Dienstleistungen begeistern. Von aufregenden Veranstaltungen bis hin zu fesselnden Shows ist für jeden etwas geboten, sodass dieser Anlass zu einem wahrhaft besonderen Erlebnis wird.')
 @section('content')
 <figure class="relative aspect-[16/8] md:aspect-[16/5]">
