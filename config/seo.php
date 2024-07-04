@@ -11,7 +11,7 @@ return [
   |
   */
 
-  'title' => 'Pfäffikermäss - 8. bis 10. November 2024',
+  'title' => 'Pfäffikermäss - ABGESAGT!!!',
 
   /*
   |--------------------------------------------------------------------------
@@ -22,6 +22,6 @@ return [
   |
   */
 
-  'description' => 'Ein Dorffest, in Form einer traditionellen Gewerbeausstellung, steht an. Tauchen Sie ein in die Vielfalt unserer Gewerberegion und entdecken Sie spannende Aussteller, die mit ihren Produkten und Dienstleistungen begeistern. Von aufregenden Veranstaltungen bis hin zu fesselnden Shows ist für jeden etwas geboten, sodass dieser Anlass zu einem wahrhaft besonderen Erlebnis wird.',   
+  'description' => 'Das OK der PfäffikerMäss musste an ihrer letzten Sitzung vom 2. Juli die definitive Absage der Messe im November dieses Jahres beschliessen. Nach Ablauf der Anmeldefrist konnten auch mit grossem Engagement der einzelnen OK-Mitglieder leider nur noch sehr wenige weitere Aussteller zur Teilnahme motiviert werden. Die vorhandene Ausstellungsfläche konnte nur zu zweidrittel mit Ausstellern belegt werden. Da die Pfäffiker Mäss seinen lokalen Charakter bewahren wollte, hat das Ok auf eine weitere Anwerberunde in der weiteren Umgebung oder überregional verzichtet. Dies schmerzt umso mehr, da dieses Jahr auch eine Sonderschau der ortsansässigen Blaulichtorganisationen das abwechslungsreiche Rahmenprogramm zusätzlich ergänzt hätte.',   
 
 ];
